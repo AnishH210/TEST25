@@ -12,11 +12,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Configs</title>
 </head>
 <body>
-    <h1>Employee Details</h1>
-    <button type="button" onclick="loadXML()">Get Employee Details</button>
+    <h1>Good Configurations</h1>
+    <button type="button" onclick="loadXML()">Select configs</button>
     <br><br>
     <table id="demo"></table>
     <script>
@@ -42,10 +42,16 @@
             for(i=0;i<x.length;i++)
             {
                 t +="<tr><td>" +
-                x[i].getElementsByTagName("ename")[0].childNodes[0].nodeValue +
+                x[i].getElementsByTagName("Slno")[0].childNodes[0].nodeValue +
                 "</td><td>" +
-                x[i].getElementsByTagName("eage")[0].childNodes[0].nodeValue +
-                "</td></tr>";
+                x[i].getElementsByTagName("CPU")[0].childNodes[0].nodeValue +
+                "</td></tr>" +
+                x[i].getElementsByTagName("RAM")[0].childNodes[0].nodeValue +
+                "</td><td>" +
+                x[i].getElementsByTagName("GPU")[0].childNodes[0].nodeValue +
+                "</td><td>" +
+                x[i].getElementsByTagName("Storage")[0].childNodes[0].nodeValue +
+                "</td><td>";
             }
             document.getElementById("demo").innerHTML=t;
         }
