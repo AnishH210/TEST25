@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<company>
-	<employee>
-		<ename>Prabu</ename>
-		<eage>22</eage>
-		<esalary>3000</esalary>
-	</employee>
-	<employee>
-		<ename>Indu</ename>
-		<eage>20</eage>
-		<esalary>3000</esalary>
-	</employee>
-	<employee>
-		<ename>Rithul</ename>
-		<eage>22</eage>
-		<esalary>3000</esalary>
-	</employee>
-</company>
+<Config>
+	<PC>
+		<Slno>1</Slno>
+		<CPU>7700K</CPU>
+		<RAM>16GB</RAM>
+		<GPU>GTX 1700</GPU>
+		<Storage>1TB</Storage>
+	</PC>
+</Config>
