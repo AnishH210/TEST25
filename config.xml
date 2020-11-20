@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Config>
+	<PC>
+		<Slno>1</Slno>
+		<CPU>7700K</CPU>
+		<RAM>16GB</RAM>
+		<GPU>GTX 1700</GPU>
+		<Storage>1TB</Storage>
+	</PC>
+</Config>
