@@ -37,8 +37,8 @@
         {
             var i;
             var xmlDoc=xml.responseXML;
-            var t="<tr><th>ENAME</th><th>EAGE</th></tr>";
-            var x=xmlDoc.getElementsByTagName("employee");
+            var t="<tr><th>Slno</th><th>CPU</th><th>RAM</th><th>GPU</th>Storage</th></tr>";
+            var x=xmlDoc.getElementsByTagName("PC");
             for(i=0;i<x.length;i++)
             {
                 t +="<tr><td>" +
